@@ -1,0 +1,32 @@
+
+.banner {
+    background-image: linear-gradient(#000080, #5858ea);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  .banner-content h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .banner-image {
+    width: 50px;
+    height: 50px;
+    object-fit: contain; 
+  }
+  
+  @media (max-width: 600px) {
+    .banner-image {
+        width: 40px;
+        height: 40px;
+    }
+  }
+  
